@@ -2,7 +2,7 @@
   "title": "Arguments By Type",
   "name": "argsbytype",
   "version": "1.0.0",
-  "description": "Provide say `[1, 'asd']` and get back `{number:[1], string:['asd']}`. Very useful for agnostic argument orders.",
+  "description": "Provide some arguments, get back a hash object of the arguments indexed by their type. Very useful for agnostic argument orders.",
   "homepage": "https://github.com/bevry/argsbytype",
   "keywords": [
     "a",
@@ -27,7 +27,9 @@
   "maintainers": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
-  "contributors": [],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
   "bugs": {
     "url": "https://github.com/bevry/argsbytype/issues"
   },
