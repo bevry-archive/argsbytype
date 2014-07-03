@@ -1,0 +1,59 @@
+{
+  "title": "Arguments By Type",
+  "name": "argsbytype",
+  "version": "1.0.0",
+  "description": "Provide say `[1, 'asd']` and get back `{number:[1], string:['asd']}`. Very useful for agnostic argument orders.",
+  "homepage": "https://github.com/bevry/argsbytype",
+  "keywords": [
+    "a",
+    "b",
+    "c"
+  ],
+  "license": {
+    "type": "MIT"
+  },
+  "badges": {
+    "travis": true,
+    "npm": true,
+    "david": true,
+    "daviddev": true,
+    "gittip": "bevry",
+    "flattr": "344188/balupton-on-Flattr",
+    "paypal": "QB8GQPZAH84N6",
+    "bitcoin": "https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a",
+    "wishlist": "http://amzn.com/w/2F8TXKSNAFG4V"
+  },
+  "author": "2014+ Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+  "maintainers": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/bevry/argsbytype/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bevry/argsbytype.git"
+  },
+  "engines": {
+    "node": ">=0.4"
+  },
+  "dependencies": {
+    "typechecker": "^2.0.8"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.7.1",
+    "joe": "~1.5.0",
+    "joe-reporter-console": "~1.2.1",
+    "chai": "~1.9.1",
+    "projectz": "~0.3.11"
+  },
+  "directories": {
+    "lib": "./out/lib"
+  },
+  "scripts": {
+    "test": "node ./test/argsbytype-test.js"
+  },
+  "main": "./lib/argsbytype.js",
+  "browsers": true
+}
