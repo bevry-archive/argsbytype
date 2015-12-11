@@ -1,4 +1,6 @@
-var myFunction = function(){
+/* eslint prefer-reflect:0, no-var:0, object-shorthand:0, no-magic-numbers:0, no-console:0 */
+'use strict'
+function myFunction () {
 	// Extract our arguments
 	var args = require('../')(arguments)
 	var name = args.strings[0]
@@ -13,6 +15,6 @@ var myFunction = function(){
 	})
 }
 
-myFunction('sup', {a:1}, 123)  // {name: 'sup', options:{a:1}, concurrency: 123}
-myFunction({a:1}, 123, 'sup')  // {name: 'sup', options:{a:1}, concurrency: 123}
-myFunction(123, 'sup', {a:1})  // {name: 'sup', options:{a:1}, concurrency: 123}
+myFunction('sup', {a: 1}, 123)  // {name: 'sup', options:{a: 1}, concurrency: 123}
+myFunction({a: 1}, 123, 'sup')  // {name: 'sup', options:{a: 1}, concurrency: 123}
+myFunction(123, 'sup', {a: 1})  // {name: 'sup', options:{a: 1}, concurrency: 123}
