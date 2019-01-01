@@ -4,7 +4,7 @@
 const typechecker = require('typechecker')
 
 // Define
-module.exports = function argsbytype (args) {
+module.exports = function argsbytype(args) {
 	// convert argument objects to array
 	if (Array.isArray(args) === false) args = Array.prototype.slice.call(args)
 
@@ -22,7 +22,7 @@ module.exports = function argsbytype (args) {
 		objects: [],
 		undefineds: []
 	}
-	args.forEach(function (arg) {
+	args.forEach(function(arg) {
 		const type = typechecker.getType(arg)
 		result[type + 's'].push(arg)
 	})
