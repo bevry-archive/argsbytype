@@ -54,10 +54,9 @@ Provide some arguments, get back a hash object of the arguments indexed by their
 
 <p>This package is published with the following editions:</p>
 
-<ul><li><code>argsbytype</code> aliases <code>argsbytype/index.js</code> which uses <a href="https://editions.bevry.me" title="Editions are the best way to produce and consume packages you care about.">Editions</a> to automatically select the correct edition for the consumers environment</li>
+<ul><li><code>argsbytype</code> aliases <code>argsbytype/source/index.js</code></li>
 <li><code>argsbytype/source/index.js</code> is esnext source code with require for modules</li>
-<li><code>argsbytype/edition-browsers/index.js</code> is esnext compiled for browsers with require for modules</li>
-<li><code>argsbytype/edition-node-0.8/index.js</code> is esnext compiled for node.js 0.8 with require for modules</li></ul>
+<li><code>argsbytype/edition-browsers/index.js</code> is esnext compiled for browsers with require for modules</li></ul>
 
 <!-- /INSTALL -->
 
@@ -127,7 +126,8 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 
-<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/argsbytype/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/argsbytype">view contributions</a></li></ul>
+<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/argsbytype/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/argsbytype">view contributions</a></li>
+<li><a href="http://github.com/apps/dependabot-preview">dependabot-preview[bot]</a> — <a href="https://github.com/bevry/argsbytype/commits?author=dependabot-preview[bot]" title="View the GitHub contributions of dependabot-preview[bot] on repository bevry/argsbytype">view contributions</a></li></ul>
 
 <a href="https://github.com/bevry/argsbytype/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
