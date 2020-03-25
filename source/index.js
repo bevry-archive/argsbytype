@@ -20,9 +20,9 @@ module.exports = function argsbytype(args) {
 		regexps: [],
 		strings: [],
 		objects: [],
-		undefineds: []
+		undefineds: [],
 	}
-	args.forEach(function(arg) {
+	args.forEach(function (arg) {
 		const type = typechecker.getType(arg)
 		result[type + 's'].push(arg)
 	})

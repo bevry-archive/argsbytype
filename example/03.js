@@ -2,7 +2,7 @@
 'use strict'
 
 // agnostic setTimeout
-function wait () {
+function wait() {
 	const args = require('../')(arguments)
 	return setTimeout(args.functions[0], args.numbers[0])
 }
