@@ -67,7 +67,7 @@ Yay! Big win for agnostic argument order! But when would you actually want this?
 
 ``` html
 <script type="module">
-    import * as pkg from '//dev.jspm.io/argsbytype@3.1.0'
+    import * as pkg from '//dev.jspm.io/argsbytype@3.2.0'
 </script>
 ```
 
@@ -75,7 +75,7 @@ Yay! Big win for agnostic argument order! But when would you actually want this?
 
 <p>This package is published with the following editions:</p>
 
-<ul><li><code>argsbytype</code> aliases <code>argsbytype/source/index.js</code></li>
+<ul><li><code>argsbytype</code> aliases <code>argsbytype/index.js</code> which uses the <a href="https://github.com/bevry/editions" title="You can use the Editions Autoloader to autoload the appropriate edition for your consumers environment">Editions Autoloader</a> to automatically select the correct edition for the consumer's environment</li>
 <li><code>argsbytype/source/index.js</code> is <a href="https://en.wikipedia.org/wiki/ECMAScript#ES.Next" title="ECMAScript Next">ESNext</a> source code for <a href="https://nodejs.org" title="Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine">Node.js</a> with <a href="https://nodejs.org/dist/latest-v5.x/docs/api/modules.html" title="Node/CJS Modules">Require</a> for modules</li>
 <li><code>argsbytype/edition-browsers/index.js</code> is <a href="https://en.wikipedia.org/wiki/ECMAScript#ES.Next" title="ECMAScript Next">ESNext</a> compiled for web browsers with <a href="https://nodejs.org/dist/latest-v5.x/docs/api/modules.html" title="Node/CJS Modules">Require</a> for modules</li></ul>
 
@@ -108,7 +108,7 @@ Yay! Big win for agnostic argument order! But when would you actually want this?
 
 These amazing people are maintaining this project:
 
-<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/argsbytype/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/argsbytype">view contributions</a></li></ul>
+<ul><li><a href="https://github.com/balupton">Benjamin Lupton</a> — <a href="https://github.com/bevry/argsbytype/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/argsbytype">view contributions</a></li></ul>
 
 <h3>Sponsors</h3>
 
@@ -128,8 +128,7 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 
-<ul><li><a href="http://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/argsbytype/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/argsbytype">view contributions</a></li>
-<li><a href="http://github.com/apps/dependabot-preview">dependabot-preview[bot]</a> — <a href="https://github.com/bevry/argsbytype/commits?author=dependabot-preview[bot]" title="View the GitHub contributions of dependabot-preview[bot] on repository bevry/argsbytype">view contributions</a></li></ul>
+<ul><li><a href="https://github.com/balupton">Benjamin Lupton</a> — <a href="https://github.com/bevry/argsbytype/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/argsbytype">view contributions</a></li></ul>
 
 <a href="https://github.com/bevry/argsbytype/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
