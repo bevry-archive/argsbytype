@@ -1,7 +1,7 @@
 {
   "title": "Arguments By Type",
   "name": "argsbytype",
-  "version": "3.8.0",
+  "version": "3.9.0",
   "description": "Provide some arguments, get back a hash object of the arguments indexed by their type. Very useful for agnostic argument orders.",
   "homepage": "https://github.com/bevry/argsbytype",
   "license": "MIT",
@@ -102,10 +102,10 @@
     "typechecker": "^7.6.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.1",
-    "@babel/core": "^7.10.2",
-    "@babel/plugin-proposal-object-rest-spread": "^7.10.1",
-    "@babel/preset-env": "^7.10.2",
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
     "@bevry/update-contributors": "^1.10.0",
     "assert-helpers": "^6.8.0",
     "eslint": "^7.3.0",
