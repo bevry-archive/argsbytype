@@ -2,7 +2,7 @@
 'use strict'
 
 // Import
-const argsbytype = require('./')
+const argsbytype = require('./index.js')
 const deepEqual = require('assert-helpers').deepEqual,
 	kava = require('kava')
 
