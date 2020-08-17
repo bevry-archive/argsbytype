@@ -67,7 +67,7 @@ Yay! Big win for agnostic argument order! But when would you actually want this?
 
 ``` html
 <script type="module">
-    import * as pkg from '//dev.jspm.io/argsbytype@3.18.0'
+    import * as pkg from '//dev.jspm.io/argsbytype@3.19.0'
 </script>
 ```
 
