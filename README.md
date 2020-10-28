@@ -67,7 +67,7 @@ Yay! Big win for agnostic argument order! But when would you actually want this?
 
 ``` html
 <script type="module">
-    import * as pkg from '//dev.jspm.io/argsbytype@3.20.0'
+    import * as pkg from '//dev.jspm.io/argsbytype@3.21.0'
 </script>
 ```
 
@@ -76,7 +76,7 @@ Yay! Big win for agnostic argument order! But when would you actually want this?
 <p>This package is published with the following editions:</p>
 
 <ul><li><code>argsbytype</code> aliases <code>argsbytype/source/index.js</code></li>
-<li><code>argsbytype/source/index.js</code> is <a href="https://en.wikipedia.org/wiki/ECMAScript#ES.Next" title="ECMAScript Next">ESNext</a> source code for <a href="https://nodejs.org" title="Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine">Node.js</a> 10 || 12 || 13 || 14 with <a href="https://nodejs.org/dist/latest-v5.x/docs/api/modules.html" title="Node/CJS Modules">Require</a> for modules</li>
+<li><code>argsbytype/source/index.js</code> is <a href="https://en.wikipedia.org/wiki/ECMAScript#ES.Next" title="ECMAScript Next">ESNext</a> source code for <a href="https://nodejs.org" title="Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine">Node.js</a> 10 || 12 || 14 || 15 with <a href="https://nodejs.org/dist/latest-v5.x/docs/api/modules.html" title="Node/CJS Modules">Require</a> for modules</li>
 <li><code>argsbytype/edition-browsers/index.js</code> is <a href="https://en.wikipedia.org/wiki/ECMAScript#ES.Next" title="ECMAScript Next">ESNext</a> compiled for web browsers with <a href="https://nodejs.org/dist/latest-v5.x/docs/api/modules.html" title="Node/CJS Modules">Require</a> for modules</li></ul>
 
 <!-- /INSTALL -->
